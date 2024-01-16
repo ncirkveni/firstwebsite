@@ -1,0 +1,51 @@
+body {
+  background: #556b2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a {
+  width: 200px;
+  height: 200px;
+  border-radius: 100% 0;
+  background: #deb887;
+  position: relative;
+  top: 260px;
+  z-index: -1;
+}
+
+.middle {
+  position: absolute;
+  background-color: #f5f5dc;
+  border-color: #f5f5dc;
+  top: 226px;
+  rotate: -45deg;
+}
+.other {
+  rotate: 90deg;
+}
+
+.input-box {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+}
+h1 {
+  color: #ffffff;
+  position: absolute;
+  bottom: 20%;
+}
+.doge {
+  position: absolute;
+  background-color: rgb(75, 96, 44);
+  top: 400px;
+  z-index: 1;
+}
+input {
+  margin-left: 30px;
+}
+
+.slova {
+  text-transform: capitalize;
+}
